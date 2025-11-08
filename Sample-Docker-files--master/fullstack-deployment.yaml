@@ -65,7 +65,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: murak/ems-backend:latest
+          image: akshaya/ems-backend:latest
           ports:
             - containerPort: 8080
           env:
@@ -98,7 +98,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: murak/ems-frontend:latest
+          image: akshaya/ems-frontend:latest
           ports:
             - containerPort: 8080
           env:
